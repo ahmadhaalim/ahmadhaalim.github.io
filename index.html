@@ -8,6 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  <noscript>
+    <!-- anchor linking to external file -->
+    You need to enable JavaScript to run this app.
+  </noscript>
 <!-- partial:index.partial.html -->
 <nav id="navbar">
   <div id="leftbar">
@@ -31,40 +35,7 @@
         </div>
       </div>
     </div>
-    <div id="projects">
-      <p class="bigtext">These are some of my projects</p>
-      <a class="project-tile hvr-grow" href="https://github.com/ahmadhaalim/NaiveBayesDiscretization" target=_blank>
-          <div class="project-image">
-            <img src="resources/diskritisasi.png" alt="Discretization Effects on Naive Bayes" />
-          </div>
-          <span class="textlink" href="https://github.com/ahmadhaalim/NaiveBayesDiscretization" target=_blank>Discretization Effects on Naive Bayes Classification</span>
-      </a>
-       <a class="project-tile hvr-grow" href="https://codepen.io/ahmadhaalim/pen/XWromyW" target=_blank>
-          <div class="project-image">
-            <img src="resources/Tribute-Page.png" alt="Tribute Page" />
-          </div>
-          <span class="textlink" href="https://codepen.io/ahmadhaalim/pen/XWromyW" target=_blank>
-          Tribute Page</span>
-      </a>
-      <a class="project-tile hvr-grow" href="https://codepen.io/ahmadhaalim/pen/XWWRNBE" target=_blank>
-          <div class="project-image">
-            <img src="resources/landingpage.png" alt="Landing Page" />
-          </div>
-          <span class="textlink" href="https://codepen.io/ahmadhaalim/pen/XWWRNBE" target=_blank>Landing Page</span>
-      </a>
-      <a class="project-tile hvr-grow" href="https://codepen.io/ahmadhaalim/pen/yLBwjBx" target=_blank>
-          <div class="project-image">
-            <img src="resources/Survey-Form.png" alt="Survey Form" />
-          </div>
-          <span class="textlink" href="https://codepen.io/ahmadhaalim/pen/yLBwjBx" target=_blank>Survey Form</span>
-      </a>
-      <a class="project-tile hvr-grow" href="https://github.com/ahmadhaalim/DanaPulsa_AndroidAutomation" target=_blank>
-          <div class="project-image">
-            <img src="resources/gears.png" alt="Automation" />
-          </div>
-          <span class="textlink" href="https://github.com/ahmadhaalim/DanaPulsa_AndroidAutomation" target=_blank>Android Test Automation</span>
-      </a>
-
+      <div id="pcontainer"></div>
     </div>
     <div id="contacts">
       <div class="bigtext ctc">Let's work together...</div>
@@ -97,7 +68,11 @@
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
-<!-- partial -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script type="text/babel" src= "./script.js"></script>
+<!-- partial --> 
   
 </body>
 </html>
