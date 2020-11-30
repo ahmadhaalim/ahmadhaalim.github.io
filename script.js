@@ -11,6 +11,7 @@ function ProjectTile (props){
 
 const tiles = (
     <div id='projects'>
+      <p class="bigtext">These are some of my projects</p>
       <ProjectTile link='https://github.com/ahmadhaalim/NaiveBayesDiscretization' img='resources/diskritisasi.png' title ='Discretization Effects on Naive Bayes Classification'></ProjectTile>       
       <ProjectTile link='https://codepen.io/ahmadhaalim/pen/XWromyW' img='resources/Tribute-Page.png' title ='Tribute Page'></ProjectTile>       
       <ProjectTile link='https://codepen.io/ahmadhaalim/pen/XWWRNBE' img='resources/landingpage.png'title ='Landing Page'></ProjectTile>  
