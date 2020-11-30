@@ -1,2 +1,2 @@
 # ahmadhaalim.github.io
-My responsive simple portofolio
+My simple portofolio utilizing the github.io feature, created using HTML, CSS, JavaScript, and ReactJS
